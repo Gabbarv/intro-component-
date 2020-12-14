@@ -1,0 +1,167 @@
+body{
+  background-image: url(images/bg-intro-desktop.png);
+background-color: hsl(0, 100%, 74%);
+background-size: cover;
+
+background-repeat: no-repeat;
+font-family: 'Poppins', sans-serif;
+}
+.first{
+  width: 30%;
+  position: absolute;
+  left: 100px;
+  top: 200px;
+  color: #fff;
+}
+.try{
+  background-color: hsl(248, 32%, 49%);
+  width: 450px;
+  height: 40px;
+  position: absolute;
+  right: -400px;
+top: 60px;
+border-radius: 5px;
+padding: 8px 70px;
+color: #fff;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.for{
+  background-color: #fff;
+  width: 450px;
+  height: 430px;
+  position: absolute;
+  right: -400px;
+  top: 120px;
+  padding: 5%;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+input{
+  width: 350px;
+margin-bottom: 15px;
+border-radius: 5px;
+padding: 5px 20px;
+outline: none;
+border: 1px solid black;
+font-weight: 600;
+
+}
+input[type=submit]{
+  background-color: hsl(154, 59%, 51%);
+  color: #fff;
+  font-size: .7rem;
+  margin-bottom: 5px;
+
+}
+h1{
+  font-weight: 700;
+}
+.see{
+  font-weight: 600;
+  font-size: .7rem;
+}
+span{
+  font-weight: 600;
+}
+.then{
+  font-weight: 400;
+  font-size: .9rem;
+}
+.by{
+  font-size: .6rem;
+  font-weight: 500;
+}
+.by span{
+  color: hsl(0, 100%, 74%) ;
+}
+label{
+  font-size: .6rem;
+}
+.txt{
+  position: relative;
+  bottom: 25px;
+  left: 200px;
+  margin-bottom: 0;
+
+
+
+}
+.ig{
+  position: relative;
+  right: 33px;
+
+}
+#firstlbltxt{
+  visibility: hidden;
+  color: hsl(0, 100%, 74%) ;
+}
+#firstlblimg{
+    visibility: hidden;
+
+}
+#lastlblimg{
+    visibility: hidden;
+}
+#lastlbltext{
+    visibility: hidden;
+    color: hsl(0, 100%, 74%) ;
+}
+#emaillblimg{
+    visibility: hidden;
+}
+#emaillbltext{
+  visibility: hidden;
+  color: hsl(0, 100%, 74%) ;
+
+}
+#passlblimg{
+    visibility: hidden;
+}
+#passlbltext{
+    visibility: hidden;
+    color: hsl(0, 100%, 74%) ;
+}
+#sub:hover{
+  background-color: #CAD0D8;
+}
+@media only screen and (max-width: 770px) {
+  body{
+    background-image: url(images/bg-intro-mobile.png);
+    background-color: hsl(0, 100%, 74%) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .first{
+    position: initial;
+    width: 90%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+
+
+  }
+  .try{
+      position: initial;
+      margin-bottom: 30px;
+      margin-left: auto;
+      margin-right: auto;
+  }
+  .for{
+      position: initial;
+      margin-left: auto;
+      margin-right: auto;
+  }
+  .two{
+    width: 90%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+
+  }
+  .txt{
+    position: relative;
+  left: 100px;
+
+  }
+
+}
